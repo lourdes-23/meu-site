@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>PokeFreaks</title>
+   <link rel="shortcut icon" type="image/png" href="/img/image.png"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+      html, body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        background-color: #F1F1F1;
+      }
+      main {
+        flex: 1;
+      }
+      footer {
+        width: 100%;
+        background-color: #F1F1F1;
+        color: #333333;
+        text-align: center;
+        padding: 20px 0;
+      }
+      .vermelho {
+        background-color: #82d3ff;
+      }
+      .btn-outline-light {
+        color: #3a4a50;
+        border-color: #3a4a50;
+      }
+      .btn-outline-light:hover {
+        background-color: #3a4a50;
+        color: #333333;
+      }
+      header {
+        background-color: #82d3ff;
+      }
+      main {
+        background-color: #F1F1F1;
+        padding: 20px;
+      }
+      footer {
+        background-color: #F1F1F1;
+        color: #333333;
+        text-align: center;
+        padding: 20px 0;
+      }
+      .navbar-brand {
+        color: #3a4a50 !important;
+      }
+      .navbar-toggler-icon {
+        background-color: #3a4a50;
+      }
+      .navbar-light .navbar-nav .nav-link {
+        color: #3a4a50;
+      }
+      .navbar-light .navbar-nav .nav-link:hover {
+        color: white;
+      }
+      .form-control {
+        background-color: #D6D6D6;
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/pikachu.png" alt="logo" width="30" height="24">
+          PokeFreaks
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="treinador.html">Treinador</a></li>
+            <li class="nav-item"><a class="nav-link" href="pokedex.html">Pokédex</a></li>
+            <li class="nav-item dropdown">
+                            <a class="btn btn-outline-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/pages/contatos.html"> Itens da franquia </a></li>
+                                <li><a class="dropdown-item" href="#">Em breve</a></li>
+                            </ul>
+                        </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar pokémon" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+    <main>
+    </main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
